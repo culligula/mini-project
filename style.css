@@ -1,0 +1,123 @@
+header {
+    background-color: #1a2422;
+    color: #5b6572;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    font-size: 24px;
+    position:relative;
+    top:5px;
+    font-weight: bold;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .nav a {
+      color: #5b6572;  
+  }
+
+  .nav a:hover {
+    color: rgb(190, 147, 147);
+  }
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(100, 115, 116);
+}
+
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #5b6572;
+    background-color: #0E1E1B;
+    box-shadow: 0 0 10px #1f0130;
+}
+
+footer {
+    background-color: #1a2422;
+    color: #5b6572;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+}
+
+.contact-form {
+    max-width: 500px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+  .form-group label {
+      display: block;
+      font-weight: bold;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+
+  form > button {
+      background-color: #333;
+      color: #5b6572;
+      padding: 10px 20px;
+      border: #333 1 px solid;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  form > button:hover {
+      background-color: #fff;
+      border-color: 266150;
+      padding: 10px 20px;
+      cursor: pointer;
+  }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
